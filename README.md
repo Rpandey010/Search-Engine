@@ -92,3 +92,9 @@ The similarity between the query and each document is calculated using cosine si
 
 The application uses a custom spell checker to automatically correct misspelled terms in user queries, improving the search experience.
 
+
+## Humans behind this project
+
+- Obviously Me
+- Aryan Sharma
+- Rishabh Gupta
