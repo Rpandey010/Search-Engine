@@ -23,7 +23,7 @@ Table of Contents
   - [TF-IDF Calculation](#tf-idf-calculation)
   - [Cosine Similarity](#cosine-similarity)
   - [Spell Checking](#spell-checking)
-- [Dependencies](#-dependencies)
+
   
 ## 📋 Features
 
@@ -34,28 +34,17 @@ Table of Contents
 - **Spell Checking**: Automatically corrects misspelled terms in user queries
 - **Web Interface**: Search through documents using a simple HTML form
 
-## 🛠️ Prerequisites
-
-- Python 3.10+
-- Internet connection (for downloading NLTK stopwords and spaCy model)
 
 ## 🚀 Installation
 
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/Zilean12/Search-Engine.git
-   ```
-   ```bash
-   cd Search-Engine
-2. **Install Required Packages** Install the necessary Python packages listed in `requirements.txt`:
+1. **Install Required Packages** Install the necessary Python packages listed in `requirements.txt`:
    ```bash
    pip install -r requirements.txt
-3. **Download spaCy Model**
+2. **Download spaCy Model**
    ```bash
    python -m spacy download en_core_web_sm
-4. **Download NLTK Data** Download the stopwords dataset from NLTK
-5. **Run the Application** Start the Flask app by running:
+3. **Download NLTK Data** Download the stopwords dataset from NLTK
+4. **Run the Application** Start the Flask app by running:
    ```bash
    python app.py
    
@@ -102,15 +91,4 @@ The similarity between the query and each document is calculated using cosine si
 ### Spell Checking
 
 The application uses a custom spell checker to automatically correct misspelled terms in user queries, improving the search experience.
-
-## 🧰 Dependencies
-------
-
-- **Flask**: Web framework for Python, used for handling HTTP requests and serving the web application.
-- **NLTK (Natural Language Toolkit)**: Used for text preprocessing tasks, such as removing stopwords.
-- **NumPy**: Provides support for numerical operations and vector calculations, essential for data processing.
-- **Tabulate**: Formats data in tables for improved readability in the console.
-- **Colorama**: Cross-platform library for adding color formatting to terminal output, making console messages more intuitive.
-- **spaCy**: Advanced NLP library, used with the `en_core_web_sm` model to support text processing and tokenization.
-- **rapidfuzz**: Library for fuzzy string matching, enhancing search capabilities by identifying approximate matches.
 
